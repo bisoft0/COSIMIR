@@ -1,0 +1,4 @@
+[COSIMIR-Sensor-Induktiv]
+;induktiver Sensor, erkennt nur elektrisch leitende Objekte
+SensorType = SEN_INDUCTIVE
+Dmax = 20

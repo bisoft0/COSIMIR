@@ -1,0 +1,4 @@
+[COSIMIR-Sensor-Kapaz]
+;kapazitiver Sensor
+SensorType = SEN_CAPACITIVE
+Dmax = 20

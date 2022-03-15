@@ -1,0 +1,68 @@
+[OPTIONS]  
+WINDOW_POS=92, 61, 336, 495, 0, 1.065181, -2, -1, 96228, 137594, -587, -293  
+VISI_CAPTION=I/O-Monitor  
+GRID_WIDTH=10  
+CPL_RANGE=1000  
+VIS_AUTOSTART=1  
+CONF_STEP=0  
+SHOW_WITH_BMP=1  
+GRID_VISIBILITY=0  
+ENGAGE_GRID=0  
+ENGAGE_CPLPTS=1  
+SHOW_WHILE_MOVING=1  
+TRNSPOS_VISIBILITY=1  
+CPLPTS_VISIBILITY=0  
+TRNSWAYS_VISIBILITY=0  
+SIGN_FUNCELEM=0  
+TRNSELEM_VISIBILITY=1  
+SEGMENT_VISIBILITY=1  
+SYSTEM_VISIBILITY=1  
+MATFLOW_CFGDLG=0  
+SINGLE_WND=0  
+UPDATE_CYCLIC=0  
+UPDATE_CYCLE=0  
+LINK_SYNC=0  
+MULT_TEXT=3625  
+BKGND_COLOR=RGB(192, 192, 192)                                    
+CPLPT_COLOR=RGB(128, 0, 0)                                    
+CPLPTFREE_COLOR=RGB(0, 128, 0)                                    
+TRNSWAYS_COLOR=RGB(0, 0, 128)                                    
+FUNCELEM_COLOR=RGB(192, 192, 192)                                    
+SEGMENT_COLOR=RGB(0, 0, 128)                                    
+SYSTEM_COLOR=RGB(128, 0, 0)                                    
+VAR_TITLE=0 
+VAR_DIR= 
+  
+[TRNSPOS-COLORS]  
+Status 0=RGB(255, 255, 255)                                    
+Status 1=RGB(0, 0, 0)                                    
+Status 2=RGB(128, 128, 128)                                    
+Status 3=RGB(0, 0, 128)                                    
+Status 4=RGB(128, 0, 0)                                    
+Status 5=RGB(255, 255, 0)                                    
+Status 6=RGB(0, 128, 0)                                    
+ID-COLOR=RGB(0, 0, 0)                                    
+CMD-COLOR=RGB(128, 0, 0)                                    
+  
+[TRNSOPTIONS]  
+SHOW_ID=1  
+SHOW_CMD=1  
+lfHeight=-13  
+lfWidth=0  
+lfEscapement=0  
+lfOrientation=0  
+lfWeight=400  
+lfItalic=0  
+lfUnderline=0  
+lfStrikeOut=0  
+lfCharSet=0  
+lfOutPrecision=4  
+lfClipPrecision=2  
+lfQuality=2  
+lfPitchAndFamily=34  
+lfFaceName=Arial  
+CMD-WIDTH=4  
+DEF_VARDIR=.$AS.Public.$MATFLOW.ControlElements  
+  
+[COSIMIR]  
+OBJECT_NAME=IOMonitor  

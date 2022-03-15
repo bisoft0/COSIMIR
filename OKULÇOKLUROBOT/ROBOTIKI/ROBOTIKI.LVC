@@ -1,0 +1,5962 @@
+LUCAS-Process Visualization - Configuration File Version: 108
+1.065181 -2 -1 96 3625 3.200000 96228 137594 -587 -293
+.System.
+RectElem
+0 0 0 3.166667 13.650000 0 95000 136500 0 RectElem
+
+
+
+
+
+
+
+192 192 192 0 0 0 1 1
+.System.
+KeyElem
+0 0 0 0.000000 0.000000 0 0 0 0 KeyElem
+49 0 0 0
+O:IOMonitor.CtrlCardSetActive
+1
+.System.
+KeyElem
+0 0 0 0.000000 0.000000 0 0 0 0 KeyElem
+50 0 0 0
+O:IOMonitor.CtrlCardSetActive
+2
+.System.
+KeyElem
+0 0 0 0.000000 0.000000 0 0 0 0 KeyElem
+51 0 0 0
+O:IOMonitor.CtrlCardSetActive
+3
+.System.
+AudioElem
+0 0 0 0.000000 0.000000 0 0 0 0 AudioElem
+CLICK.WAV
+I:IOMonitor.CtrlCardIsActive
+1.000000
+0
+.System.
+AudioElem
+0 0 0 0.000000 0.000000 0 0 0 0 AudioElem
+CLICK.WAV
+I:IOMonitor.CtrlCardIsActive
+2.000000
+0
+.System.
+AudioElem
+0 0 0 0.000000 0.000000 0 0 0 0 AudioElem
+CLICK.WAV
+I:IOMonitor.CtrlCardIsActive
+3.000000
+0
+.System.
+RectElem
+2500 2500 0 3.000000 1.900000 0 90000 19000 0 RectElem
+
+
+
+
+
+
+
+192 192 192 0 0 0 1 2
+.System.
+TextBox
+3500 12500 0 0.800000 0.800000 0 24000 8000 0 TextBox
+
+
+I/O-Card:
+
+Right 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 192 192 192 0 1
+
+.System.
+TextBox
+12000 3500 0 0.833333 0.800000 0 25000 8000 0 TextBox
+
+
+ONLINE
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+12000 3500 0 0.833333 0.800000 1 25000 8000 0 TextBox
+I:IOMonitor.IOMonitorIsActive
+1
+OFFLINE
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+RectElem
+3750 3750 0 0.250000 0.750000 0 7500 7500 0 RectElem
+I:IOMonitor.IOMonitorState
+1.000000
+
+
+
+
+
+0 255 0 0 0 0 0 0
+.System.
+RectElem
+3750 3750 0 0.250000 0.750000 0 7500 7500 0 RectElem
+I:IOMonitor.IOMonitorState
+2.000000
+
+
+
+
+
+255 255 0 0 0 0 0 0
+.System.
+RectElem
+3750 3750 0 0.250000 0.750000 0 7500 7500 0 RectElem
+I:IOMonitor.IOMonitorState
+3.000000
+
+
+
+
+
+255 0 0 0 0 0 0 0
+.System.
+RectElem
+3750 3750 0 0.250000 0.750000 0 7500 7500 0 RectElem
+I:IOMonitor.IOMonitorState
+0.000000
+
+
+
+
+
+128 128 128 0 0 0 0 0
+C:\COSIROP\bin\LIBRARY\roppv01.lel
+Systemelement II
+3500 3500 0 1.000000 1.000000 0 8074 8077 2 InfoElem
+
+
+
+
+
+.System.
+RectElem
+2500 24000 0 3.000000 11.000000 0 90000 110000 0 RectElem
+
+
+
+
+
+
+
+192 192 192 0 0 0 1 2
+.System.
+TextBox
+3500 25500 0 1.283333 0.750000 0 38500 7500 0 TextBox
+
+
+Inputs
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+255 255 255 0 0 128 0 0 0 1 0
+
+.System.
+TextBox
+3500 25500 0 1.283333 0.750000 1 38500 7500 0 TextBox
+I:IOMonitor.IOMonitorIsActive
+1
+Eingänge
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+128 128 128 0 0 128 0 0 0 1 0
+
+.System.
+TextBox
+52500 25500 0 1.300000 0.750000 0 39000 7500 0 TextBox
+
+
+Outputs
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+255 255 255 0 0 128 0 0 0 1 0
+
+.System.
+TextBox
+52500 25500 0 1.300000 0.750000 1 39000 7500 0 TextBox
+I:IOMonitor.IOMonitorIsActive
+1
+Outputs
+
+Center 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+128 128 128 0 0 128 0 0 0 1 0
+
+.System.
+RectElem
+52000 34500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed0
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 40500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed1
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 46500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed2
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 52500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed3
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 58500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed4
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 64500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed5
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 70500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed6
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 76500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed7
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 82500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed8
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 88500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed9
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 94500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed10
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 100500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed11
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 106500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed12
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 112500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed13
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 118500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed14
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+RectElem
+52000 124500 0 1.300000 0.600000 0 39000 6000 0 RectElem
+I:IOMonitor.CtrlCardOutIsDed15
+1
+
+
+
+
+
+128 128 128 0 0 0 0 0
+.System.
+LampElem
+37000 35000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input
+
+I:IOMonitor.CtrlCardIn0
+1
+65280 32768
+.System.
+TextBox
+5000 35000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn0
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 35000 0 1.233333 0.500000 0 37000 5000 0 Parent
+38/39/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 41000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 2
+
+I:IOMonitor.CtrlCardIn1
+1
+65280 32768
+.System.
+TextBox
+5000 41000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn1
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 41000 0 1.233333 0.500000 0 37000 5000 0 Parent
+41/42/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 47000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 3
+
+I:IOMonitor.CtrlCardIn2
+1
+65280 32768
+.System.
+TextBox
+5000 47000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn2
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 47000 0 1.233333 0.500000 0 37000 5000 0 Parent
+44/45/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 53000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 4
+
+I:IOMonitor.CtrlCardIn3
+1
+65280 32768
+.System.
+TextBox
+5000 53000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn3
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 53000 0 1.233333 0.500000 0 37000 5000 0 Parent
+47/48/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 59000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 5
+
+I:IOMonitor.CtrlCardIn4
+1
+65280 32768
+.System.
+TextBox
+5000 59000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn4
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 59000 0 1.233333 0.500000 0 37000 5000 0 Parent
+50/51/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 65000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 6
+
+I:IOMonitor.CtrlCardIn5
+1
+65280 32768
+.System.
+TextBox
+5000 65000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn5
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 65000 0 1.233333 0.500000 0 37000 5000 0 Parent
+53/54/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 71000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 7
+
+I:IOMonitor.CtrlCardIn6
+1
+65280 32768
+.System.
+TextBox
+5000 71000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn6
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 71000 0 1.233333 0.500000 0 37000 5000 0 Parent
+56/57/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 77000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 8
+
+I:IOMonitor.CtrlCardIn7
+1
+65280 32768
+.System.
+TextBox
+5000 77000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn7
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 77000 0 1.233333 0.500000 0 37000 5000 0 Parent
+59/60/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 83000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 9
+
+I:IOMonitor.CtrlCardIn8
+1
+65280 32768
+.System.
+TextBox
+5000 83000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn8
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 83000 0 1.233333 0.500000 0 37000 5000 0 Parent
+62/63/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 89000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 10
+
+I:IOMonitor.CtrlCardIn9
+1
+65280 32768
+.System.
+TextBox
+5000 89000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn9
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 89000 0 1.233333 0.500000 0 37000 5000 0 Parent
+65/66/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 95000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 11
+
+I:IOMonitor.CtrlCardIn10
+1
+65280 32768
+.System.
+TextBox
+5000 95000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn10
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 95000 0 1.233333 0.500000 0 37000 5000 0 Parent
+68/69/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 101000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 12
+
+I:IOMonitor.CtrlCardIn11
+1
+65280 32768
+.System.
+TextBox
+5000 101000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn11
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 101000 0 1.233333 0.500000 0 37000 5000 0 Parent
+71/72/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 107000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 13
+
+I:IOMonitor.CtrlCardIn12
+1
+65280 32768
+.System.
+TextBox
+5000 107000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn12
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 107000 0 1.233333 0.500000 0 37000 5000 0 Parent
+74/75/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 113000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 14
+
+I:IOMonitor.CtrlCardIn13
+1
+65280 32768
+.System.
+TextBox
+5000 113000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn13
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 113000 0 1.233333 0.500000 0 37000 5000 0 Parent
+77/78/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 119000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 15
+
+I:IOMonitor.CtrlCardIn14
+1
+65280 32768
+.System.
+TextBox
+5000 119000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn14
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 119000 0 1.233333 0.500000 0 37000 5000 0 Parent
+80/81/
+37000 5000
+
+
+
+
+
+
+
+.System.
+LampElem
+37000 125000 0 0.619272 0.619042 0 5000 5000 0 LampElem
+Input 16
+
+I:IOMonitor.CtrlCardIn15
+1
+65280 32768
+.System.
+TextBox
+5000 125000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardIn15
+
+
+
+Right 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.Parent.
+Grafik
+5000 125000 0 1.233333 0.500000 0 37000 5000 0 Parent
+83/84/
+37000 5000
+
+
+
+
+
+
+
+.System.
+RectElem
+52000 34500 0 1.300000 9.600000 1 39000 96000 0 RectElem
+I:IOMonitor.IOMonitorIsActive
+1
+
+
+
+
+
+192 192 192 0 0 0 0 0
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 35000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 35000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut0
+
+Grip
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 35000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut0
+1
+0
+O:IOMonitor.CtrlCardOut0
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 35000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut0
+0
+1
+O:IOMonitor.CtrlCardOut0
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 35000 0 4.644538 0.619042 0 37500 5000 0 Parent
+87/88/89/90/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 41000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 41000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut1
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 41000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut1
+1
+0
+O:IOMonitor.CtrlCardOut1
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 41000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut1
+0
+1
+O:IOMonitor.CtrlCardOut1
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 41000 0 4.644538 0.619042 0 37500 5000 0 Parent
+92/93/94/95/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 47000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 47000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut2
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 47000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut2
+1
+0
+O:IOMonitor.CtrlCardOut2
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 47000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut2
+0
+1
+O:IOMonitor.CtrlCardOut2
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 47000 0 4.644538 0.619042 0 37500 5000 0 Parent
+97/98/99/100/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 53000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 53000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut3
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 53000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut3
+1
+0
+O:IOMonitor.CtrlCardOut3
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 53000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut3
+0
+1
+O:IOMonitor.CtrlCardOut3
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 53000 0 4.644538 0.619042 0 37500 5000 0 Parent
+102/103/104/105/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 59000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 59000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut4
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 59000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut4
+1
+0
+O:IOMonitor.CtrlCardOut4
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 59000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut4
+0
+1
+O:IOMonitor.CtrlCardOut4
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 59000 0 4.644538 0.619042 0 37500 5000 0 Parent
+107/108/109/110/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 65000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 65000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut5
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 65000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut5
+1
+0
+O:IOMonitor.CtrlCardOut5
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 65000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut5
+0
+1
+O:IOMonitor.CtrlCardOut5
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 65000 0 4.644538 0.619042 0 37500 5000 0 Parent
+112/113/114/115/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 71000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 71000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut6
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 71000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut6
+1
+0
+O:IOMonitor.CtrlCardOut6
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 71000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut6
+0
+1
+O:IOMonitor.CtrlCardOut6
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 71000 0 4.644538 0.619042 0 37500 5000 0 Parent
+117/118/119/120/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 77000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 77000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut7
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 77000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut7
+1
+0
+O:IOMonitor.CtrlCardOut7
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 77000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut7
+0
+1
+O:IOMonitor.CtrlCardOut7
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 77000 0 4.644538 0.619042 0 37500 5000 0 Parent
+122/123/124/125/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 83000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 83000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut8
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 83000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut8
+1
+0
+O:IOMonitor.CtrlCardOut8
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 83000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut8
+0
+1
+O:IOMonitor.CtrlCardOut8
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 83000 0 4.644538 0.619042 0 37500 5000 0 Parent
+127/128/129/130/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 89000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 89000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut9
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 89000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut9
+1
+0
+O:IOMonitor.CtrlCardOut9
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 89000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut9
+0
+1
+O:IOMonitor.CtrlCardOut9
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 89000 0 4.644538 0.619042 0 37500 5000 0 Parent
+132/133/134/135/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 95000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 95000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut10
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 95000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut10
+1
+0
+O:IOMonitor.CtrlCardOut10
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 95000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut10
+0
+1
+O:IOMonitor.CtrlCardOut10
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 95000 0 4.644538 0.619042 0 37500 5000 0 Parent
+137/138/139/140/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 101000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 101000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut11
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 101000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut11
+1
+0
+O:IOMonitor.CtrlCardOut11
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 101000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut11
+0
+1
+O:IOMonitor.CtrlCardOut11
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 101000 0 4.644538 0.619042 0 37500 5000 0 Parent
+142/143/144/145/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 107000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 107000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut12
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 107000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut12
+1
+0
+O:IOMonitor.CtrlCardOut12
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 107000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut12
+0
+1
+O:IOMonitor.CtrlCardOut12
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 107000 0 4.644538 0.619042 0 37500 5000 0 Parent
+147/148/149/150/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 113000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 113000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut13
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 113000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut13
+1
+0
+O:IOMonitor.CtrlCardOut13
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 113000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut13
+0
+1
+O:IOMonitor.CtrlCardOut13
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 113000 0 4.644538 0.619042 0 37500 5000 0 Parent
+152/153/154/155/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 119000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 119000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut14
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 119000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut14
+1
+0
+O:IOMonitor.CtrlCardOut14
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 119000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut14
+0
+1
+O:IOMonitor.CtrlCardOut14
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 119000 0 4.644538 0.619042 0 37500 5000 0 Parent
+157/158/159/160/
+37500 5000
+
+
+
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch high
+52500 125000 0 0.619272 0.619042 0 5000 5000 1 ButtonControl
+
+
+
+
+
+5000 5000 0 0
+
+
+
+
+.System.
+TextBox
+60000 125000 0 1.000000 0.500000 1 30000 5000 0 TextBox
+I:IOMonitor.CtrlCardOut15
+
+
+
+Left 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch Set 1
+52500 125000 0 0.619272 0.619042 0 5000 5000 8 ButtonControl
+
+I:IOMonitor.CtrlCardOut15
+1
+0
+O:IOMonitor.CtrlCardOut15
+5000 5000 0 0
+
+
+
+
+C:\COSIMIR.Professional\BIN\LIBRARY\roppv02.LEL
+Switch low
+52500 125000 0 0.619272 0.619042 0 5000 5000 2 ButtonControl
+
+I:IOMonitor.CtrlCardSetOut15
+0
+1
+O:IOMonitor.CtrlCardOut15
+5000 5000 0 0
+
+
+
+
+.Parent.
+Grafik
+52500 125000 0 4.644538 0.619042 0 37500 5000 0 Parent
+162/163/164/165/
+37500 5000
+
+
+
+
+
+
+
+.System.
+TextBox
+36000 3500 0 0.783333 0.800000 0 23500 8000 0 TextBox
+
+
+Show:
+
+Right 0 VCenter
+
+-14 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 192 192 192 0 1
+
+.System.
+WinButton
+60000 3500 0 0.516667 0.800000 0 15500 8000 0 WinButton
+0 - 15	
+I:IOMonitor.CtrlCardIs16To31
+1
+0
+O:IOMonitor.CtrlCardSet16To31
+15500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+60000 3500 0 0.516667 0.800000 0 15500 8000 0 TextBox
+I:IOMonitor.CtrlCardIs16To31
+0
+0 - 15
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+76000 3500 0 0.516667 0.800000 1 15500 8000 0 TextBox
+I:IOMonitor.CtrlCard2Exists
+1
+16 - 31
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+76000 3500 0 0.516667 0.800000 0 15500 8000 0 WinButton
+16 - 31	
+I:IOMonitor.CtrlCardIs16To31
+0
+1
+O:IOMonitor.CtrlCardSet16To31
+15500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+76000 3500 0 0.516667 0.800000 0 15500 8000 0 TextBox
+I:IOMonitor.CtrlCardIs16To31
+1
+16 - 31
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+28000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard1Exists
+1
+I
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+28000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+I	
+I:IOMonitor.CtrlCard1Exists
+1
+1.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+36000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard2Exists
+1
+II
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+36000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+II	
+I:IOMonitor.CtrlCard2Exists
+1
+2.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+36000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+2.000000
+II
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+44000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard3Exists
+1
+III
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+44000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+III	
+I:IOMonitor.CtrlCard3Exists
+1
+3.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+44000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+3.000000
+III
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+52000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard4Exists
+1
+IV
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+52000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+IV	
+I:IOMonitor.CtrlCard4Exists
+1
+4.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+60000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard5Exists
+1
+V
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+60000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+V	
+I:IOMonitor.CtrlCard5Exists
+1
+5.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+60000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+5.000000
+V
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+68000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard6Exists
+1
+VI
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+68000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+VI	
+I:IOMonitor.CtrlCard6Exists
+1
+6.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+68000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+6.000000
+VI
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+76000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard7Exists
+1
+VII
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+76000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+VII	
+I:IOMonitor.CtrlCard7Exists
+1
+7.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+76000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+7.000000
+VII
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+84000 12500 0 0.250000 0.800000 1 7500 8000 0 TextBox
+I:IOMonitor.CtrlCard8Exists
+1
+VIII
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0 128 128 128 0 0 0 1 1
+
+.System.
+WinButton
+84000 12500 0 0.250000 0.800000 0 7500 8000 0 WinButton
+VIII	
+I:IOMonitor.CtrlCard8Exists
+1
+8.000000
+O:IOMonitor.CtrlCardSetActive
+7500 8000 0 0 0
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 0
+
+.System.
+TextBox
+84000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+8.000000
+VIII
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+28000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+1.000000
+I
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+52000 12500 0 0.250000 0.800000 0 7500 8000 0 TextBox
+I:IOMonitor.CtrlCardIsActive
+4.000000
+IV
+
+Center 0 VCenter
+
+-13 0 0 0 700 0 0 0 0 3 2 1 34
+Arial
+0 0 128 192 192 192 0 0 0 1 1
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+48
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+49
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+50
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+51
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+52
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+53
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+54
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+55
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+56
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+57
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+58
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+59
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+60
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+61
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+62
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+63
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+197/198/199/200/201/202/203/204/205/206/207/208/209/210/211/212/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+32
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+33
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+34
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+35
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+36
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+37
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+38
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+39
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+40
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+41
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+42
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+43
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+44
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+45
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+46
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+47
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+214/215/216/217/218/219/220/221/222/223/224/225/226/227/228/229/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+213/230/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+2.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+80
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+81
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+82
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+83
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+84
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+85
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+86
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+87
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+88
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+89
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+90
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+91
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+92
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+93
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+94
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+95
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+232/233/234/235/236/237/238/239/240/241/242/243/244/245/246/247/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+64
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+65
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+66
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+67
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+68
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+69
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+70
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+71
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+72
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+73
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+74
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+75
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+76
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+77
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+78
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+79
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+249/250/251/252/253/254/255/256/257/258/259/260/261/262/263/264/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+248/265/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+3.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+112
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+113
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+114
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+115
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+116
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+117
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+118
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+119
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+120
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+121
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+122
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+123
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+124
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+125
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+126
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+127
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+267/268/269/270/271/272/273/274/275/276/277/278/279/280/281/282/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+96
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+97
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+98
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+99
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+100
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+101
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+102
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+103
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+104
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+105
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+106
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+107
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+108
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+109
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+110
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+111
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+284/285/286/287/288/289/290/291/292/293/294/295/296/297/298/299/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+283/300/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+4.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+144
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+145
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+146
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+147
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+148
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+149
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+150
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+151
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+152
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+153
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+154
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+155
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+156
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+157
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+158
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+159
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+302/303/304/305/306/307/308/309/310/311/312/313/314/315/316/317/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+128
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+129
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+130
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+131
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+132
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+133
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+134
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+135
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+136
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+137
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+138
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+139
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+140
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+141
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+142
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+143
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+319/320/321/322/323/324/325/326/327/328/329/330/331/332/333/334/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+318/335/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+5.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+176
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+177
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+178
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+179
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+180
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+181
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+182
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+183
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+184
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+185
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+186
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+187
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+188
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+189
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+190
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+191
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+337/338/339/340/341/342/343/344/345/346/347/348/349/350/351/352/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+160
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+161
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+162
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+163
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+164
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+165
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+166
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+167
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+168
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+169
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+170
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+171
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+172
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+173
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+174
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+175
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+354/355/356/357/358/359/360/361/362/363/364/365/366/367/368/369/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+353/370/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+6.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+208
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+209
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+210
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+211
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+212
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+213
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+214
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+215
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+216
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+217
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+218
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+219
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+220
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+221
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+222
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+223
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+372/373/374/375/376/377/378/379/380/381/382/383/384/385/386/387/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+192
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+193
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+194
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+195
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+196
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+197
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+198
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+199
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+200
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+201
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+202
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+203
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+204
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+205
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+206
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+207
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+389/390/391/392/393/394/395/396/397/398/399/400/401/402/403/404/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+388/405/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+7.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+240
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+241
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+242
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+243
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+244
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+245
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+246
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+247
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+248
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+249
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+250
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+251
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+252
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+253
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+254
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+255
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+407/408/409/410/411/412/413/414/415/416/417/418/419/420/421/422/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+224
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+225
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+226
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+227
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+228
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+229
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+230
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+231
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+232
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+233
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+234
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+235
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+236
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+237
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+238
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+239
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+424/425/426/427/428/429/430/431/432/433/434/435/436/437/438/439/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+423/440/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+8.000000
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+16
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+17
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+18
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+19
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+20
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+21
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+22
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+23
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+24
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+25
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+26
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+27
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+28
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+29
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+30
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 255 255 255 0 0 0 0 1
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+31
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 192 192 192 0 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+442/443/444/445/446/447/448/449/450/451/452/453/454/455/456/457/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+1
+
+
+
+
+
+.System.
+TextBox
+44500 35000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+0
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 41000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+1
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 47000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+2
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 53000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+3
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 59000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+4
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 65000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+5
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 71000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+6
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 77000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+7
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 83000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+8
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 89000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+9
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 95000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+10
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 101000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+11
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 107000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+12
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 113000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+13
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 119000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+14
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.System.
+TextBox
+44500 125000 0 0.200000 0.500000 0 6000 5000 0 TextBox
+
+
+15
+
+Center 0 VCenter
+
+-11 0 0 0 400 0 0 0 0 3 2 1 34
+Arial
+0 0 0 192 192 192 0 0 0 1 0
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+459/460/461/462/463/464/465/466/467/468/469/470/471/472/473/474/
+6000 95000
+I:IOMonitor.CtrlCardIs16To31
+0
+
+
+
+
+
+.Parent.
+Grafik
+44500 35000 0 0.200000 9.500000 0 6000 95000 0 Parent
+458/475/
+6000 95000
+I:IOMonitor.CtrlCardIsActive
+1.000000
+
+
+
+
+
